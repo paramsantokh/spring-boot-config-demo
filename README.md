@@ -6,7 +6,8 @@ client will access all the configuration from config server.
 Client Application: http://localhost:8080/greeting
 Accessing this URL will give all the configured values either from client app or from config server.
 
-Config server: http://localhost:8888/application/default
+Config server: http://localhost:8888/application/default   -> http://localhost:8888/<property file name>/profile
+              http://localhost:8888/spring-boot-config-client/default
 Above url will show the configurations present in properties or yml file.
 
 Actuator: http://localhost:8080/actuator/configprops
