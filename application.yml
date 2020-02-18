@@ -1,4 +1,4 @@
 config:
   greeting: Hello From server(git repo)
   my:
-    list: four,five,six,seven
+    list: four,five,six,seven,eight
