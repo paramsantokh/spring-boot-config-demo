@@ -1,0 +1,4 @@
+db:
+  connection: "{connectionUrl:'http://localhost:9090',user:'user',pass:'pass'}"
+  host: dbhost
+  port: 9090 
