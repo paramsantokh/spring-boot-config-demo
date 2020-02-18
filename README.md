@@ -1,6 +1,6 @@
 # spring-boot-config-demo
 Demo application to show how a separate configration server can be setup to put all the configuration aside from main application.
-client will access all the configuration from confih server.
+client will access all the configuration from config server.
 
 # URLs
 Client Application: http://localhost:8080/greeting
