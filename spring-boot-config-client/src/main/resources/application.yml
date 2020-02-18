@@ -2,7 +2,3 @@ management.endpoints.web.exposure.include: "*"
 spring.cloud.config.uri: http://localhost:8888
 
 config.dbValues: "{connectionUrl:'http://localhost:8090',user:'param',pass:'param'}"
-db:
-  connection: "{connectionUrl:'http://localhost:8090',user:'param',pass:'param'}"
-  host: localhost
-  port: 8089
