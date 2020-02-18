@@ -1,4 +1,11 @@
 management.endpoints.web.exposure.include: "*"
-spring.cloud.config.uri: http://localhost:8888
+
+spring:
+  application:
+    name: spring-boot-config-client
+  cloud:
+    config:
+      uri: http://localhost:8888
+
 
 config.dbValues: "{connectionUrl:'http://localhost:8090',user:'param',pass:'param'}"
