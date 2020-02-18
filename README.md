@@ -17,9 +17,9 @@ http://localhost:8888/spring-boot-config-client/default  -> property file create
 Above url will show the configurations present in properties or yml file.
 
 **Actuator:** 
-(http://localhost:8080/actuator/configprops)
-(http://localhost:8080/actuator/health)
+http://localhost:8080/actuator/configprops
+http://localhost:8080/actuator/health
 
 To Refresh changes done in config server yml/properties file, do a POST to below URL:
 
-(http://localhost:8080/actuator/refresh)
+http://localhost:8080/actuator/refresh
