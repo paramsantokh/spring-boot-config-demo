@@ -1,0 +1,8 @@
+config:
+  greeting: Hello From config server spring-boot-config-client.yml
+  my:
+    list: four,five,six,seven,eight
+db:
+  connection: "{connectionUrl:'http://localhost:8090',user:'param',pass:'param'}"
+  host: localhost
+  port: 8090 
