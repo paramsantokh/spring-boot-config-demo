@@ -9,4 +9,4 @@ Accessing this URL will give all the configured values either from client app or
 Config server: http://localhost:8888/application/default
 Above url will show the configurations present in properties or yml file.
 
-
+Actuator: http://localhost:8080/actuator/configprops
