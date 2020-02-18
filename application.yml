@@ -5,4 +5,4 @@ config:
 db:
   connection: "{connectionUrl:'http://localhost:8090',user:'param',pass:'param'}"
   host: localhost
-  port: 8089    
+  port: 8090 
